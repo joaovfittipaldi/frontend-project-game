@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Em Partida - Jogo da Memória</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="game-body">
+    <div class="interface">
+        <section class="placar-section">
+            <table id="tabelaPlacar">
+                <thead>
+                    <tr>
+                        <th>Jogador</th>
+                        <th>Pares Encontrados</th>
+                    </tr>
+                </thead>
+                <tbody id="corpoPlacar">
+                    </tbody>
+            </table>
+            <div id="statusTurno">Vez de: <span id="jogadorAtual">--</span></div>
+        </section>
+
+        <main id="tabuleiro">
+            </main>
+
+        <section class="historico-section">
+            <h3>Histórico de Ações</h3>
+            <ul id="listaEventos">
+                </ul>
+            <button id="btnLimparHistorico">Limpar Histórico</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
